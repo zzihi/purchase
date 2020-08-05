@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: purchase
-          image: 496278789073.dkr.ecr.ap-northeast-2.amazonaws.com/user26purchase:latest
+          image: 496278789073.dkr.ecr.ap-northeast-2.amazonaws.com/user26purchase:v1
           ports:
             - containerPort: 8080
           resources:
