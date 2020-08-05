@@ -33,7 +33,7 @@ public class Purchase {
     public void onPreRemove(){
         Cancelled cancelled = new Cancelled();
         BeanUtils.copyProperties(this, cancelled);
-        cancelled.setPurchaseStatus("취소됨");
+        cancelled.setPurchaseStatus("CANCELLED");
         cancelled.publishAfterCommit();
 
 
